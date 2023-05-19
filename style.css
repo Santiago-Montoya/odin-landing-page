@@ -66,6 +66,10 @@ a {
     color: white;
 }
 
+.logo {
+    margin-right: 10px;
+}
+
 .nav {
     display: flex;
     gap: 10px;
@@ -78,7 +82,6 @@ a {
     padding-bottom: 50px;
     flex-wrap: wrap;
     background-color: #1f2937;
-    
     color: white;
 
 }
@@ -88,6 +91,11 @@ a {
     flex-direction: column;
     gap: 20px;
     flex: 1;
+    min-width: 40vw;
+}
+
+.media {
+    min-width: 35vw;
 }
 
 .cta-btn {
@@ -107,11 +115,13 @@ a {
     flex: 1;
 }
 
+.media img {
+    border-radius: 10px;
+}
+
 .content {
     padding-top: 50px;
     padding-bottom: 50px;
-    
-    
 }
 
 .content .title {
@@ -122,12 +132,14 @@ a {
 
 .card-container {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-item {
-    width: 300px;
+    min-width: 250px;
+    flex: 1;
 }
 
 .card-item img {
@@ -142,7 +154,6 @@ a {
     background-color: #e5e7eb;
 }
 
-
 .cta {
     padding: 15px 10vw;
 }
@@ -150,8 +161,9 @@ a {
 .cta-card {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 50px 0;
-    padding: 20px 100px;
+    padding: 20px 10vw;
     background-color: #3882f6;
     color: white;
     border-radius: 20px;
@@ -162,12 +174,13 @@ a {
     align-self: center;
 }
 
+.cta-copy {
+    margin: 0 10px 5vw 0;
+}
+
 .cta-copy h2 {
     margin-bottom: 10px;
 }
-
-
-
 
 .footer {
     background-color: #1f2937;
